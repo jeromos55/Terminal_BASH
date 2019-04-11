@@ -3,5 +3,5 @@
 git add --all
 echo 'Commit text: '
 read com1
-git commit im $com1
+git commit -m $com1
 git push
