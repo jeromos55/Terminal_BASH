@@ -1,5 +1,5 @@
 echo 'Custom bash aliases are runing.' <<Comment1
-
+5
 *********************************************************
 this is not working if there is not in .bashrc file !!
 
@@ -10,9 +10,10 @@ fi
 
 Comment1
 
-alias Delete='rm -R '
+alias Delete='rm -rf '
 alias createSH='~/SH/createSH.sh > '
 alias resetBash='. ~/.bash_aliases'
+alias Rename='mv $1 $2'
 
 # node web project works
 
