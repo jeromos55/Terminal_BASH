@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gitClone() { var1='https://github.com/jeromos55/'; git clone $var1$1; }
+
+gitClone $1
