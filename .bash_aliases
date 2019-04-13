@@ -15,6 +15,8 @@ alias createSH='~/SH/createSH.sh > '
 alias resetAlias='. ~/.bash_aliases'
 alias resetBASH='. ~/bashrc'
 alias Rename='mv $1 $2'
+alias rm='rm -i'
+
 
 # node web project works
 
@@ -61,21 +63,6 @@ alias .5='cd ../../../../..'
 alias cls='clear'
 alias ll='ls -la'
 
-# make customized color the prompt
+# the prompt
 
-orange=$(tput setaf 166);
-yellow=$(tput setaf 228);
-green=$(tput setaf 71);
-white=$(tput setaf 15);
-bold=$(tput bold);
-reset=$(tput sgr0);
-
-PS1="\[${bold}\]\n";
-PS1+="\[${orange}\]\u";    # user
-PS1+="\[${white}\] at ";
-PS1+="\[${yellow}\]\h";    # host
-PS1+="\[${white}\] in ";
-PS1+="\[${green}\]\w";     # working directory
-PS1+="\n";
-PS1+="\[${white}\]\$ \[${reset}\]";     # '$'   (and reset color)
-export PS1;
+alias PR='PS1+="\n" && PS1+="\[${white}\]\$ "'   
