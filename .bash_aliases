@@ -13,10 +13,10 @@ Comment1
 alias Delete='rm -rf '
 alias createSH='~/SH/createSH.sh > '
 alias resetAlias='. ~/.bash_aliases'
-alias resetBASH='. ~/bashrc'
+alias resetBASH='. ~/.bashrc'
 alias Rename='mv $1 $2'
 alias rm='rm -i'
-
+alias c='clear'
 
 # node web project works
 
