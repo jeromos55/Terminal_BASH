@@ -17,6 +17,7 @@ alias resetBASH='. ~/.bashrc'
 alias Rename='mv $1 $2'
 alias rm='rm -i'
 alias c='clear'
+alias aptUp='sudo apt-get update && sudo apt-get upgrade'
 
 # node web project works
 
