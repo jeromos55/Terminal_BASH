@@ -1,5 +1,5 @@
 echo 'Custom bash aliases are runing.' <<Comment1
-5
+
 *********************************************************
 this is not working if there is not in .bashrc file !!
 
@@ -17,7 +17,6 @@ alias resetBASH='. ~/.bashrc'
 alias Rename='mv $1 $2'
 alias rm='rm -i'
 alias c='clear'
-alias aptUp='sudo apt-get update && sudo apt-get upgrade'
 
 # node web project works
 
@@ -32,12 +31,14 @@ alias live-server_jobs='live-server &'
 alias sass_jobs='sass --watch sass/main.scss:css/style.css --style expanded &'
 alias EDIT='sublime'
 alias SUB='sublime'
-alias Github='cd Desktop/Github/'
-alias workMac='open . && open Desktop/Github/SCSS-projects/ && open Robi\ dolgai/Tutorials/YOUTUBE/SCSS/05\ SCSS\ tutorial\ 87\ video/02-advanced/ && open /Applications/Sublime\ Text.app && open /Applications/Google\ Chrome.app'
+alias workMac='open ~/ && open ~/Desktop/Github/SCSS-projects && open ~/Robi\ dolgai/Tutorials/YOUTUBE/SCSS/05\ SCSS\ tutorial\ 87\ video/02-advanced && open /Applications/Sublime\ Text.app && open /Applications/Google\ Chrome.app'
 
 ## git shortcuts ##
 
-alias SCSS='cd Desktop/Github/SCSS-projects/'
+alias SCSSMac='cd ~/Desktop/Github/SCSS-projects/'
+alias SCSSLin='cd Gtihub/SCSS-projects/'
+alias GitLin='cd Github/'
+alias GitMac='cd ~/Desktop/Github'
 alias gcl='git clone '
 alias gs='git status '
 alias ga='git add '
@@ -65,5 +66,5 @@ alias cls='clear'
 alias ll='ls -la'
 
 # the prompt
-
+alias LSC='export CLICOLOR=1 && export LSCOLORS=ExFxCxDxBxegedabagacad'
 alias PR='PS1+="\n" && PS1+="\[${white}\]\$ "'   
