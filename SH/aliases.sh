@@ -17,6 +17,7 @@ alias resetBASH='. ~/.bashrc'
 alias Rename='mv $1 $2'
 alias rm='rm -i'
 alias c='clear'
+alias ls='ls -l'
 
 # node web project works
 
@@ -36,9 +37,11 @@ alias workMac='open ~/ && open ~/Desktop/Github/SCSS-projects && open ~/Robi\ do
 ## git shortcuts ##
 
 alias SCSSMac='cd ~/Desktop/Github/SCSS-projects/'
-alias SCSSLin='cd Gtihub/SCSS-projects/'
-alias GitLin='cd Github/'
+alias SCSSLin='cd ~/Github/SCSS-projects/'
+alias GitLin='cd ~/Github/'
 alias GitMac='cd ~/Desktop/Github'
+alias BashLin='cd ~/Github/Terminal_BASH/'
+alias BashMac='cd ~/Desktop/Github/Terminal_BASH'
 alias gcl='git clone '
 alias gs='git status '
 alias ga='git add '
@@ -67,4 +70,5 @@ alias ll='ls -la'
 
 # the prompt
 alias LSC='export CLICOLOR=1 && export LSCOLORS=ExFxCxDxBxegedabagacad'
-alias PR='PS1+="\n" && PS1+="\[${white}\]\$ "'   
+alias PRC='PS1="\[\033[01;32m\]\u@\[\033[31m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ "'
+alias PR='PS1="\u@\h:\w\n\$ "'   
