@@ -66,6 +66,7 @@ alias cls='clear'
 alias ll='ls -la'
 
 # the prompt
+alias PRL='PS1+="\n$ "'
 alias LSC='export CLICOLOR=1 && export LSCOLORS=ExFxCxDxBxegedabagacad'
 alias PRC='PS1="\[\033[01;32m\]\u@\[\033[31m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ "'
 alias PR='PS1="\u@\h:\w\n\$ "'   
