@@ -12,7 +12,7 @@ Comment1
 
 alias Delete='rm -rf '
 alias createSH='~/SH/createSH.sh > '
-alias resetAlias='. ~/.bash_aliases'
+alias Alias='. ~/Github/Terminal_BASH/SH/aliases.sh'
 alias resetBASH='. ~/.bashrc'
 alias Rename='mv $1 $2'
 alias rm='rm -i'
@@ -36,12 +36,9 @@ alias workMac='open ~/ && open ~/Desktop/Github/SCSS-projects && open ~/Robi\ do
 
 ## git shortcuts ##
 
-alias SCSSMac='cd ~/Desktop/Github/SCSS-projects/'
-alias SCSSLin='cd ~/Github/SCSS-projects/'
-alias GitLin='cd ~/Github/'
-alias GitMac='cd ~/Desktop/Github'
-alias BashLin='cd ~/Github/Terminal_BASH/'
-alias BashMac='cd ~/Desktop/Github/Terminal_BASH'
+alias SCSS='cd ~/Github/SCSS-projects/'
+alias Git='cd ~/Github/'
+alias Bash='cd ~/Github/Terminal_BASH/'
 alias gcl='git clone '
 alias gs='git status '
 alias ga='git add '
