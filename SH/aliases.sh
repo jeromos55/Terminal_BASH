@@ -11,7 +11,7 @@ fi
 Comment1
 
 alias Delete='rm -rf '
-alias createSH='~/SH/createSH.sh > '
+alias createSH='~/Github/Terminal_BASH/SH/createSH.sh > '
 alias Alias='. ~/Github/Terminal_BASH/SH/aliases.sh'
 alias resetBASH='. ~/.bashrc'
 alias Rename='mv $1 $2'
