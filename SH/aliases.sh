@@ -18,6 +18,7 @@ alias Rename='mv $1 $2'
 alias rm='rm -i'
 alias c='clear'
 alias ls='ls -l'
+alias Vimode='set -o vi'
 
 # node web project works
 
