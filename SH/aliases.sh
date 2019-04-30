@@ -32,7 +32,7 @@ alias live-server_jobs='live-server &'
 alias sass_jobs='sass --watch sass/main.scss:css/style.css --style expanded &'
 alias EDIT='sublime'
 alias SUB='sublime'
-alias workMac='open ~/ && open ~/Desktop/Github/SCSS-projects && open ~/Robi\ dolgai/Tutorials/YOUTUBE/SCSS/05\ SCSS\ tutorial\ 87\ video/02-advanced && open /Applications/Sublime\ Text.app && open /Applications/Google\ Chrome.app'
+alias workMac='open ~/ && open ~/Github/SCSS-projects && open ~/Robi\ dolgai/Tutorials/YOUTUBE/SCSS/05\ SCSS\ tutorial\ 87\ video/02-advanced && open /Applications/Sublime\ Text.app && open /Applications/Google\ Chrome.app'
 
 ## git shortcuts ##
 
